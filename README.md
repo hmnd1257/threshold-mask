@@ -78,7 +78,7 @@ python main.py --baseroot <your_image_baseroot> --save_dir <save_path>
 
 | Input                              |
 |------------------------------------|
-| <img src='./example/sample1.jpeg'> |
+| <img src='./images/sample1.jpeg'> |
 
 
 | output |            segmented img (True)            |                 thresh_img                 |                filled_mask                 |                 masked_img                 |
