@@ -29,12 +29,7 @@
 git clone https://github.com/hmnd1257/threshold-mask.git
 cd threshold-mask
 ```
-* You can install all the requirements by executing below :
 
-```sh
-# in <path-to-this-repo>/
-pip install -r requirements.txt
-```
 ## Run
 1. Our dataset structure
     * This is the dataset structure we used.
