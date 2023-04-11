@@ -71,11 +71,13 @@ python main.py --baseroot <your_image_baseroot> --save_dir <save_path>
 ## Results
 
 
-| Input                              |
-|------------------------------------|
-| <img src='./images/sample1.jpeg'> |
+
+|  Input   |                             ①                              |                 ②                  |
+|:--------:|:----------------------------------------------------------:|:----------------------------------:|
+|  Images  | <img src='./images/sample1.jpeg' width="190" height="190"> | <img src='./images/sample6.jpg' width="190" height="190">   |
 
 
-| output |            segmented img (True)            |                 thresh_img                 |                filled_mask                 |                 masked_img                 |
-|--------|:------------------------------------------:|:------------------------------------------:|:------------------------------------------:|:------------------------------------------:|
-| Images | <img src='./example/sample1_result1.jpeg'> | <img src='./example/sample1_result2.jpeg'> | <img src='./example/sample1_result3.jpeg'> | <img src='./example/sample1_result4.jpeg'> |
+|               output               |                segmented img                |                 thresh_img                  |                 filled_mask                 |                 masked_img                  |
+|:----------------------------------:|:-------------------------------------------:|:-------------------------------------------:|:-------------------------------------------:|:-------------------------------------------:|
+| ①   <br/>`<--segmentation: True>`  | <img src='./example/sample1_result1.jpeg'>  | <img src='./example/sample1_result2.jpeg'>  | <img src='./example/sample1_result3.jpeg'>  | <img src='./example/sample1_result4.jpeg'>  |
+| ②   <br/>`<--segmentation: False>` | <img src='./example/sample6_result1.jpg'>   | <img src='./example/sample6_result2.jpg'>   | <img src='./example/sample6_result3.jpg'>   | <img src='./example/sample6_result4.jpg'>   |
